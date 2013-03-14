@@ -1,0 +1,114 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shoppahlicfinal"
+    android:installLocation="preferExternal"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".views.login"
+            android:label="@string/title_activity_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".views.MainActivity"
+            android:label="maintab" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".controllers.feedlist"
+            android:label="@string/title_activity_list" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".views.Rowlayoutlistowlayoutlist"
+            
+            android:label="@string/title_activity_rowlayoutlist" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".views.ShoppprofileShoppprofile"
+            android:label="@string/title_activity_shoppprofile" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+                <activity
+       		android:name=".views.Registration"
+            android:label="registration" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+                <activity
+            android:name=".views.Saledetails"
+            android:label="saledetails" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+                <activity
+android:name=".views.Productdetails"
+            android:label="productdetails" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity
+        	android:name=".views.SaleFeed"
+            android:label="salefeed" >
+         </activity>
+           <activity
+            android:name=".views.EventFeed"
+            android:label="eventfeed">
+         </activity>
+          <activity
+              android:name=".views.Gridlayout"
+              android:label="gridlayout">
+              
+          </activity>
+              <activity
+            android:name=".views.Notification"
+            android:label="notify">
+         </activity>
+               <activity
+   			android:name=".controllers.ShopSaleEvent"
+            android:label="shopsaleevent">
+         </activity>
+    </application>
+    
+    
+
+</manifest>

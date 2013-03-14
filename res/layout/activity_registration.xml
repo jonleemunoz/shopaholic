@@ -1,0 +1,202 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <View
+        android:layout_width="343dp"
+        android:layout_height="54dp"
+        android:background="@drawable/header" />
+
+    <View
+        android:layout_width="138dp"
+        android:layout_height="27dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/logo" />
+
+    <View
+        android:layout_width="343dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="51dp"
+        android:background="@drawable/divider" />
+
+    <View
+        android:layout_width="298dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="100dp"
+        android:background="#59c5db"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="80dp"
+        android:text="Account Details"
+        android:textColor="#767575"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+
+    
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/regusername"
+        android:hint="Username"
+        android:inputType="textNoSuggestions"
+        android:paddingLeft="40dp"
+        android:paddingTop="3dp"
+        android:textSize="11dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="299dp"
+        android:layout_height="44dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/redpassword"
+        android:hint="Password"
+        android:inputType="textNoSuggestions"
+        android:paddingLeft="40dp"
+        android:paddingTop="1dp"
+        android:textSize="11dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="200dp"
+        android:text="Personal Details"
+        android:textColor="#767575"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="295dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="220dp"
+        android:background="#59c5db"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/firstname"
+        android:layout_width="299dp"
+        android:layout_height="44dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/regfirst"
+        android:hint="First Name"
+        android:inputType="textNoSuggestions"
+        android:paddingLeft="15dp"
+        android:paddingTop="3dp"
+        android:textSize="11dp" />
+
+    <EditText
+        android:id="@+id/lastname"
+        android:layout_width="299dp"
+        android:layout_height="44dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="274dp"
+        android:background="@drawable/reglastname"
+        android:hint="Last Name"
+        android:inputType="textNoSuggestions"
+        android:paddingLeft="15dp"
+        android:paddingTop="3dp"
+        android:textSize="11dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="299dp"
+        android:layout_height="44dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="314dp"
+        android:background="@drawable/regemail"
+        android:hint="E-mail"
+        android:inputType="textNoSuggestions"
+        android:paddingLeft="15dp"
+        android:paddingTop="3dp"
+        android:textSize="11dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="367dp"
+        android:text="Preferences"
+        android:textColor="#767575"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="295dp"
+        android:layout_height="2dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="387dp"
+        android:background="#59c5db" />
+
+    <CheckBox
+        android:id="@+id/accessories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/password"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_marginTop="390dp"
+        android:textColor="#6f6d6d"
+        android:textSize="11dp"
+        android:text="Accessories"
+        />
+    
+     <CheckBox
+        android:id="@+id/apparel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/password"
+        android:layout_alignRight="@+id/textView1"
+        android:textColor="#6f6d6d"
+        android:layout_marginTop="420dp"
+        android:textSize="11dp"
+        android:text="Apparel" />
+     
+      <CheckBox
+        android:id="@+id/bags"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/password"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="150dp"
+        android:textColor="#6f6d6d"
+        android:textSize="11dp"
+        android:text="Bags" />
+      
+      <CheckBox
+        android:id="@+id/shoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/password"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="150dp"
+        android:textColor="#6f6d6d"
+        android:textSize="11dp"
+        android:text="Shoes" 
+        />
+      
+      <Button
+        android:id="@+id/submit"
+        android:layout_width="fill_parent"
+       	android:layout_height="42dp"
+       	android:text="Submit"
+       	android:textColor="#ffffff"
+       	android:textSize="11dp"
+       	android:background="#72d0e3"
+       	android:layout_marginTop="465dp"
+       	/>
+
+</RelativeLayout>

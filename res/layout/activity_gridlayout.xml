@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <View
+       	android:layout_width="343dp"
+       	android:layout_height="54dp"
+       	android:background="@drawable/header"/>
+    
+    <View
+       	android:layout_width="138dp"
+       	android:layout_height="27dp"
+       	android:layout_marginTop="13dp"
+       	android:layout_marginLeft="175dp"
+       	android:background="@drawable/logo"/>
+    
+    
+     <ImageView
+        android:layout_width="20dp"
+       	android:layout_height="20dp"
+       	android:background="@drawable/menudark"
+       	android:layout_marginTop="71dp"
+       	android:layout_marginLeft="8dp"/>
+     
+     <TextView
+        android:id="@+id/titlename"
+        android:text="Menu"
+        android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:layout_marginTop="74dp"
+       	android:layout_marginLeft="30dp"
+       	android:textColor="#72d0e3"
+       	android:textStyle="bold"
+       	android:textSize="12dp"/>
+     
+      <View
+       	android:layout_width="343dp"
+       	android:layout_height="20dp"
+       	android:background="@drawable/divider"
+       	android:layout_marginTop="51dp"/>
+     
+     
+     <RelativeLayout
+         android:layout_width="wrap_content"
+         android:layout_height="30dp"
+         android:layout_marginTop="70dp"
+         android:layout_marginLeft="240dp">
+         <LinearLayout
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+              >
+		<ImageView
+		    android:id="@+id/butfeed"
+		    android:layout_width="25dp"
+		    android:layout_height="25dp"
+		    android:src="@drawable/feeddark"/>
+
+			
+			<ImageView
+		    android:id="@+id/butnot"
+		    android:layout_width="25dp"
+		    android:layout_height="25dp"
+		    android:src="@drawable/notifdark"/>
+			
+			<ImageView
+		    android:id="@+id/butmenu"
+		    android:layout_width="25dp"
+		    android:layout_height="25dp"
+		    android:src="@drawable/menudark"/>
+		
+		
+			
+		 
+         </LinearLayout>
+         
+         
+      </RelativeLayout>
+     
+       <View
+       	android:layout_width="343dp"
+       	android:layout_height="27dp"
+       	android:background="@drawable/titlediv"
+       	android:layout_marginTop="91dp"/>
+       
+<GridView
+ android:id="@+id/grid"
+ android:layout_width="fill_parent"
+ android:layout_height="fill_parent"
+ android:numColumns="2"
+ android:layout_centerHorizontal="true"
+ android:verticalSpacing="50dp"
+ android:layout_marginLeft="20dp"
+ android:layout_marginTop="120dp"
+ android:gravity="center"/>
+</RelativeLayout>

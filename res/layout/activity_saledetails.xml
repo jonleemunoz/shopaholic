@@ -1,0 +1,240 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <View
+        android:layout_width="343dp"
+        android:layout_height="54dp"
+        android:background="@drawable/header" />
+
+    <View
+        android:layout_width="138dp"
+        android:layout_height="27dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/logo" />
+    
+    <View
+        android:layout_width="343dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="51dp"
+        android:background="@drawable/divider" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="80dp"
+        android:text="Event Details"
+        android:textColor="#767575"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+    
+ <RelativeLayout
+         android:layout_width="wrap_content"
+         android:layout_height="30dp"
+         android:layout_marginTop="70dp"
+         android:layout_marginLeft="180dp">
+         <LinearLayout
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+              >
+		<ImageView
+		    android:id="@+id/butfeed"
+		    android:layout_width="25dp"
+		    android:layout_height="25dp"
+		    android:src="@drawable/feeddark"/>
+		
+		<ImageView
+		    android:id="@+id/butsale"
+		    android:layout_width="25dp"
+		    android:layout_height="25dp"
+		    android:src="@drawable/saledark"/>
+	
+			<ImageView
+		    android:id="@+id/butevent"
+		    android:layout_width="25dp"
+		    android:layout_height="25dp"
+		    android:src="@drawable/eventdark"/>
+			
+			<ImageView
+		    android:id="@+id/butnot"
+		    android:layout_width="25dp"
+		    android:layout_height="25dp"
+		    android:src="@drawable/notifdark"/>
+			
+			<ImageView
+		    android:id="@+id/butmenu"
+		    android:layout_width="25dp"
+		    android:layout_height="25dp"
+		    android:src="@drawable/menudark"/>
+		
+		
+			
+		 
+         </LinearLayout>
+         
+         
+      </RelativeLayout>
+    
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="100dp"
+        android:background="#59c5db"
+        android:layout_centerHorizontal="true" />
+    
+    <ImageView
+        android:id="@+id/saleeventbanner"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="110dp"
+        />
+    
+    <View
+        android:layout_width="305dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="217dp"
+        android:layout_marginLeft="-2dp"
+        android:background="#dd666767"/>
+    
+    <TextView
+        android:id="@+id/saleeventdescription"
+        android:layout_width="255dp"
+        android:layout_height="16dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="228dp"
+        android:text="Dont be late.. Hurry and grab one Now"
+        android:textColor="#ffffff"
+        
+        android:textSize="15dp"
+        android:textStyle="bold" />
+    
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="265dp"
+        android:background="#e6e5e5"
+        android:layout_centerHorizontal="true" />
+   
+    <TextView
+        android:id="@+id/saleeventname"
+        android:layout_width="180dp"
+        android:layout_height="21dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="270dp"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:freezesText="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:scrollHorizontally="true"
+        android:layout_centerHorizontal="true"
+        android:singleLine="true"
+        android:text="Midnight Sale in Ayala! Starts by 12AM."
+        android:textSize="20dp" >
+    </TextView>
+    
+   
+    
+   <ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="255dp"
+    android:background="#ffffff"
+    android:layout_marginTop="310dp">
+    
+    	<RelativeLayout
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="fill_parent"
+    	    android:background="#ffffff" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="7dp"
+        android:text="Date Started:"
+        android:textColor="#000000"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/saleeventdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="7dp"
+        android:text="Jan-12-13"
+        android:textColor="#000000"
+        android:textSize="13dp"/>
+    
+    <TextView
+        android:id="@+id/saleeventhits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="7dp"
+        android:text="20 Hits"
+        android:textColor="#000000"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/hyphen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/saleeventdate"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="7dp"
+        android:text="-"
+        android:textColor="#000000"
+        android:textSize="13dp"/>
+    
+    <TextView
+        android:id="@+id/saleeventdateended"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="7dp"
+        android:text="Jan-16-13"
+        android:textColor="#000000"
+        android:textSize="13dp"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="7dp"
+        android:text="|"
+        android:textColor="#000000"
+        android:textSize="13dp"/>
+    
+    <TextView
+        android:id="@+id/onsale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="What's on Sale!"
+        android:textColor="#dc1c3c"
+        android:textSize="36dp"
+        android:textStyle="bold"/>
+    
+    
+<GridView
+ android:id="@+id/gridproduct"
+ android:layout_width="fill_parent"
+ android:layout_height="fill_parent"
+ android:numColumns="3"
+ android:verticalSpacing="50dp"
+ android:layout_marginTop="65dp"
+ android:gravity="center"/>
+    	
+    </RelativeLayout>
+
+	</ScrollView>
+
+</RelativeLayout>

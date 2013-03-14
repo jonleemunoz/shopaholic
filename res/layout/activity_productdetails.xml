@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+  <View
+       	android:layout_width="343dp"
+       	android:layout_height="54dp"
+       	android:background="@drawable/header"/>
+    
+    <View
+       	android:layout_width="138dp"
+       	android:layout_height="27dp"
+       	android:layout_marginTop="13dp"
+       	android:layout_marginLeft="175dp"
+       	android:background="@drawable/logo"/>
+    
+     <View
+       	android:layout_width="343dp"
+       	android:layout_height="20dp"
+       	android:background="@drawable/divider"
+       	android:layout_marginTop="51dp"/>
+     
+     <ImageView
+        android:layout_height="fill_parent"
+       	android:layout_width="fill_parent"
+       	android:layout_centerHorizontal="true"
+       	android:background="@drawable/sample2"
+       	android:layout_marginTop="68dp"/>
+     
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:background="#80000000"
+         android:layout_alignParentBottom="true"
+         android:orientation="vertical"
+         android:paddingLeft="20px"
+         >
+         
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="sample"
+             android:id="@+id/productname"
+             android:textColor="#ffffff"/>
+              <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Get tbese shoes now!"
+             android:id="@+id/productdescription"
+             android:textColor="#ffffff"/>
+          
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="From P1000 to P400!"
+             android:id="@+id/productprice"
+             android:textColor="#ffffff"/>
+          <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="2 stocks left!"
+             android:id="@+id/productqty"
+             android:textColor="#ffffff"/>
+       </LinearLayout>
+     
+
+</RelativeLayout>

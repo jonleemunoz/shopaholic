@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">shoppahlicfinal</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_login">login</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_rowlayoutlist">Rowlayoutlist</string>
+    <string name="title_activity_shoppprofile">Shoppprofile</string>
+
+</resources>

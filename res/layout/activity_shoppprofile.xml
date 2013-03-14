@@ -1,0 +1,225 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <View
+        android:layout_width="343dp"
+        android:layout_height="54dp"
+        android:background="@drawable/header" />
+
+    <View
+        android:layout_width="138dp"
+        android:layout_height="27dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/logo" />
+
+    <View
+        android:layout_width="343dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="51dp"
+        android:background="@drawable/divider" />
+
+    <View
+        android:layout_width="343dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="105dp"
+        android:background="#227383" />
+
+    <ImageView
+        android:id="@+id/profilelogo"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="109dp"
+        android:background="#ffffff"
+         />
+
+    <TextView
+        android:id="@+id/shopname"
+        android:layout_width="190dp"
+        android:layout_height="16dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="112dp"
+        android:fontFamily="Century Gothic"
+		
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/malldesc"
+        android:layout_width="190dp"
+        android:layout_height="13dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="135dp"
+        android:fontFamily="Century Gothic"
+     
+        android:textColor="#ffffff"
+        android:textSize="12dp" />
+
+    <ImageView
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="268dp"
+        android:layout_marginTop="116dp"
+        android:background="@drawable/content" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="71dp"
+        android:background="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/titlename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="76dp"
+        android:text="Shop Profile"
+        android:textColor="#72d0e3"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+    
+     <RelativeLayout
+         android:layout_width="wrap_content"
+         android:layout_height="30dp"
+         android:layout_marginTop="70dp"
+         android:layout_marginLeft="180dp">
+         <LinearLayout
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+              >
+		<ImageView
+		    android:id="@+id/butfeed"
+		    android:layout_width="25dp"
+		    android:layout_height="25dp"
+		    android:src="@drawable/feeddark"/>
+		
+		<ImageView
+		    android:id="@+id/butsale"
+		    android:layout_width="25dp"
+		    android:layout_height="25dp"
+		    android:src="@drawable/saledark"/>
+	
+			<ImageView
+		    android:id="@+id/butevent"
+		    android:layout_width="25dp"
+		    android:layout_height="25dp"
+		    android:src="@drawable/eventdark"/>
+			
+			<ImageView
+		    android:id="@+id/butnot"
+		    android:layout_width="25dp"
+		    android:layout_height="25dp"
+		    android:src="@drawable/notifdark"/>
+			
+			<ImageView
+		    android:id="@+id/butmenu"
+		    android:layout_width="25dp"
+		    android:layout_height="25dp"
+		    android:src="@drawable/menudark"/>
+		
+		
+			
+		 
+         </LinearLayout>
+         
+         
+      </RelativeLayout>
+
+    <View
+        android:layout_width="343dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="91dp"
+        android:background="@drawable/titlediv" />
+
+    <TextView
+        android:id="@+id/subscribe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="102dp"
+        android:layout_marginTop="175dp"
+      
+        android:textColor="#000000"
+        android:textSize="12dp" />
+
+    <Button
+        android:id="@+id/subscribebutton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="170dp"
+        android:background="@drawable/subscribe" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="175dp"
+        android:text="Subscribe |"
+        android:textColor="#000000"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+   
+    <ImageView
+        android:id="@+id/shoppic"
+        android:layout_width="fill_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="202dp"
+        android:background="#ffffff"
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shoppic"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:text="Shop Location:"
+        android:textColor="#000000"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/profilelocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shoppic"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="5dp"
+     
+        android:textColor="#000000"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/eventbtn"
+        android:layout_width="78dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@id/profilelocation"
+        android:layout_marginTop="7dp"
+        android:background="#4390a0"
+        android:text="See Events"
+        android:textColor="#ffffff"
+        android:textSize="10dp" />
+    
+    <Button
+        android:id="@+id/salesbtn"
+        android:layout_width="230dp"
+       	android:layout_height="35dp"
+       	android:text="What's on Sale!"
+       	android:textColor="#ffffff"
+       	android:textSize="10dp"
+       	android:background="#276eab"
+       	android:layout_below="@id/profilelocation"
+       	android:layout_marginTop="7dp"
+       	android:layout_marginLeft="85dp"/>
+    
+
+</RelativeLayout>
